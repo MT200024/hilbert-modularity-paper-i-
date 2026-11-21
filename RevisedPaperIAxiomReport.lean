@@ -1,0 +1,23 @@
+import HilbertModularity
+
+/-! Run from the project folder after `lake build`.
+The output lists the transitive axioms used by each named declaration.
+-/
+
+#print axioms HilbertModularity.Cyclotomic.mccarthyValue_eq_gprvValue
+#print axioms HilbertModularity.Hypergeometric.rankTwoMcCarthySum_eq_eulerCharacterSum
+#print axioms HilbertModularity.Hypergeometric.revisedPaperI_cubicDivisibility_modular
+#print axioms HilbertModularity.PaperI.euler_chart_to_signed_cover
+#print axioms HilbertModularity.PaperI.signed_fixed_field
+#print axioms HilbertModularity.PaperI.cyclotomicSign_fixedField
+#print axioms HilbertModularity.PaperI.cyclotomicSign_geometricFrobenius_neg_one
+#print axioms HilbertModularity.PaperI.prime_exact_twist_of_pullbacks
+#print axioms HilbertModularity.PaperI.exists_rmEigenform_of_cubic
+#print axioms HilbertModularity.PaperI.conductor_euler_equiv_twisted_dual_of_pullbacks
+#print axioms HilbertModularity.PaperI.rm_and_twistedEuler_of_cubic_of_pullbacks
+#print axioms HilbertModularity.PaperI.exists_norm_hecke_traces_of_cubic_of_pullbacks
+#print axioms HilbertModularity.PaperI.cubic_parameter_auxiliary_valuations
+#print axioms HilbertModularity.PaperI.Nineteen.mccarthy_at_nineteen
+#print axioms HilbertModularity.PaperI.Nineteen.projective_counts
+#print axioms HilbertModularity.PaperI.Nineteen.geometricFrobeniusPolynomial_19
+#print axioms HilbertModularity.PaperI.Nineteen.frobenius_trace_pair_19

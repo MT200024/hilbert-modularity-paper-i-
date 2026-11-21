@@ -1,0 +1,13 @@
+.lake/
+build-logs/
+*.olean
+*.ilean
+*.trace
+*.log
+CheckAxioms.lean
+axioms_output.txt
+build_log.txt
+Hilbert-Manuscript-Corrections.pdf
+.vscode/
+.DS_Store
+Thumbs.db
